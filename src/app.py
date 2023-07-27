@@ -214,6 +214,7 @@ fig_params2.add_annotation(
 # Define the layout for your Dash app
 app.layout = html.Div(children=[
     html.H1(children='NN Fruit Classifier | With Convolution vs Without Convolution'),
+    html.H2(children='By Erik Connerty',style={'margin-bottom': '10px','font-weight': 'bold'}),
 
     html.Div(children='''
         A dashboard for visualizing training loss, test loss, and parameter count.
