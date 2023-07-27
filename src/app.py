@@ -27,7 +27,8 @@ def num_to_word(num):
 
 
 # Initialize Dash app
-app = dash.Dash(__name__)
+app = dash.Dash('NN Dashboard')
+server = app.server
 
 # Define distinct colors for each model
 model_info = {
