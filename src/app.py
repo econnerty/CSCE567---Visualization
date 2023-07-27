@@ -1,3 +1,6 @@
+#Author: Erik Connerty
+#Date: 7/26/2023
+
 import pandas as pd
 import plotly.graph_objects as go
 import os
