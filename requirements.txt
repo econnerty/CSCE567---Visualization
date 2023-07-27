@@ -1,0 +1,8 @@
+dash==2.11.1
+dash_core_components==2.0.0
+dash_html_components==2.0.0
+humanize==4.7.0
+pandas==1.5.3
+plotly==5.15.0
+gunicorn
+dash-tools
