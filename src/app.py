@@ -242,7 +242,7 @@ app.layout = html.Div(children=[
     ),
     html.H2(children='Training Loss (lower is better):'),
     html.Div(children='''
-        The train loss for each model. The train loss is the average loss for each epoch. Our models were trained a data set of 30,000
+        The train loss for each model. The train loss is the average loss for each epoch. Our models were trained on a data set of 30,000
              labeled images of various different fruits and vegetables.
     ''',style={'font-weight': 'bold','font-size': '15px'}),
     dcc.Graph(
